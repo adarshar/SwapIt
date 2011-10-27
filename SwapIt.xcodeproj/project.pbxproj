@@ -20,6 +20,24 @@
 		3F58DEFB1454AEE9006EC4F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DEF91454AEE9006EC4F0 /* InfoPlist.strings */; };
 		3F58DEFE1454AEE9006EC4F0 /* SwapItTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DEFD1454AEE9006EC4F0 /* SwapItTests.h */; };
 		3F58DF001454AEE9006EC4F0 /* SwapItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DEFF1454AEE9006EC4F0 /* SwapItTests.m */; };
+		3F58DF0C1454AF08006EC4F0 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF0A1454AF08006EC4F0 /* SplashViewController.m */; };
+		3F58DF0D1454AF08006EC4F0 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF0B1454AF08006EC4F0 /* SplashViewController.xib */; };
+		3F58DF111454B133006EC4F0 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF0F1454B132006EC4F0 /* MenuViewController.m */; };
+		3F58DF121454B133006EC4F0 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF101454B133006EC4F0 /* MenuViewController.xib */; };
+		3F58DF161454B6F2006EC4F0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF141454B6F1006EC4F0 /* SettingsViewController.m */; };
+		3F58DF171454B6F2006EC4F0 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF151454B6F1006EC4F0 /* SettingsViewController.xib */; };
+		3F58DF1B1454C4B5006EC4F0 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF191454C4B4006EC4F0 /* InstructionsViewController.m */; };
+		3F58DF1C1454C4B5006EC4F0 /* InstructionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF1A1454C4B4006EC4F0 /* InstructionsViewController.xib */; };
+		3F58DF201454C5C3006EC4F0 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF1E1454C5C3006EC4F0 /* HighScoresViewController.m */; };
+		3F58DF211454C5C3006EC4F0 /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF1F1454C5C3006EC4F0 /* HighScoresViewController.xib */; };
+		3F58DF251454C744006EC4F0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF231454C743006EC4F0 /* AboutViewController.m */; };
+		3F58DF261454C744006EC4F0 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF241454C743006EC4F0 /* AboutViewController.xib */; };
+		3F58DF2A1454C961006EC4F0 /* NewGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF281454C95F006EC4F0 /* NewGameController.m */; };
+		3F58DF2B1454C961006EC4F0 /* NewGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF291454C960006EC4F0 /* NewGameController.xib */; };
+		3F58DF2F1454DDA7006EC4F0 /* GamePlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF2D1454DDA6006EC4F0 /* GamePlayController.m */; };
+		3F58DF301454DDA7006EC4F0 /* GamePlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF2E1454DDA7006EC4F0 /* GamePlayController.xib */; };
+		3F58DF321454DE39006EC4F0 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F58DF311454DE39006EC4F0 /* test.jpg */; };
+		3F58DF471454EE59006EC4F0 /* InGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F58DF461454EE58006EC4F0 /* InGameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,19 +55,46 @@
 		3F58DED61454AEE8006EC4F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F58DED81454AEE8006EC4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F58DEDA1454AEE8006EC4F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F58DEDE1454AEE8006EC4F0 /* SwapIt-Info.plist */ = {isa = PBXFileReference; path = "SwapIt-Info.plist"; sourceTree = "<group>"; };
+		3F58DEDE1454AEE8006EC4F0 /* SwapIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapIt-Info.plist"; sourceTree = "<group>"; };
 		3F58DEE01454AEE9006EC4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F58DEE21454AEE9006EC4F0 /* SwapIt-Prefix.pch */ = {isa = PBXFileReference; path = "SwapIt-Prefix.pch"; sourceTree = "<group>"; };
+		3F58DEE21454AEE9006EC4F0 /* SwapIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapIt-Prefix.pch"; sourceTree = "<group>"; };
 		3F58DEE31454AEE9006EC4F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F58DEE51454AEE9006EC4F0 /* SwapItAppDelegate.h */ = {isa = PBXFileReference; path = SwapItAppDelegate.h; sourceTree = "<group>"; };
+		3F58DEE51454AEE9006EC4F0 /* SwapItAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapItAppDelegate.h; sourceTree = "<group>"; };
 		3F58DEE61454AEE9006EC4F0 /* SwapItAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapItAppDelegate.m; sourceTree = "<group>"; };
 		3F58DEE91454AEE9006EC4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		3F58DEF01454AEE9006EC4F0 /* SwapItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F58DEF81454AEE9006EC4F0 /* SwapItTests-Info.plist */ = {isa = PBXFileReference; path = "SwapItTests-Info.plist"; sourceTree = "<group>"; };
+		3F58DEF81454AEE9006EC4F0 /* SwapItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapItTests-Info.plist"; sourceTree = "<group>"; };
 		3F58DEFA1454AEE9006EC4F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F58DEFC1454AEE9006EC4F0 /* SwapItTests-Prefix.pch */ = {isa = PBXFileReference; path = "SwapItTests-Prefix.pch"; sourceTree = "<group>"; };
+		3F58DEFC1454AEE9006EC4F0 /* SwapItTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwapItTests-Prefix.pch"; sourceTree = "<group>"; };
 		3F58DEFD1454AEE9006EC4F0 /* SwapItTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapItTests.h; sourceTree = "<group>"; };
 		3F58DEFF1454AEE9006EC4F0 /* SwapItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapItTests.m; sourceTree = "<group>"; };
+		3F58DF091454AF08006EC4F0 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		3F58DF0A1454AF08006EC4F0 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		3F58DF0B1454AF08006EC4F0 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		3F58DF0E1454B132006EC4F0 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		3F58DF0F1454B132006EC4F0 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		3F58DF101454B133006EC4F0 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		3F58DF131454B6F1006EC4F0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3F58DF141454B6F1006EC4F0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3F58DF151454B6F1006EC4F0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		3F58DF181454C4B4006EC4F0 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		3F58DF191454C4B4006EC4F0 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		3F58DF1A1454C4B4006EC4F0 /* InstructionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsViewController.xib; sourceTree = "<group>"; };
+		3F58DF1D1454C5C3006EC4F0 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		3F58DF1E1454C5C3006EC4F0 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		3F58DF1F1454C5C3006EC4F0 /* HighScoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresViewController.xib; sourceTree = "<group>"; };
+		3F58DF221454C742006EC4F0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		3F58DF231454C743006EC4F0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		3F58DF241454C743006EC4F0 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		3F58DF271454C95F006EC4F0 /* NewGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameController.h; sourceTree = "<group>"; };
+		3F58DF281454C95F006EC4F0 /* NewGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameController.m; sourceTree = "<group>"; };
+		3F58DF291454C960006EC4F0 /* NewGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewGameController.xib; sourceTree = "<group>"; };
+		3F58DF2C1454DDA5006EC4F0 /* GamePlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayController.h; sourceTree = "<group>"; };
+		3F58DF2D1454DDA6006EC4F0 /* GamePlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayController.m; sourceTree = "<group>"; };
+		3F58DF2E1454DDA7006EC4F0 /* GamePlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePlayController.xib; sourceTree = "<group>"; };
+		3F58DF311454DE39006EC4F0 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		3F58DF451454EE57006EC4F0 /* InGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameView.h; sourceTree = "<group>"; };
+		3F58DF461454EE58006EC4F0 /* InGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +153,37 @@
 		3F58DEDC1454AEE8006EC4F0 /* SwapIt */ = {
 			isa = PBXGroup;
 			children = (
+				3F58DF311454DE39006EC4F0 /* test.jpg */,
 				3F58DEE51454AEE9006EC4F0 /* SwapItAppDelegate.h */,
 				3F58DEE61454AEE9006EC4F0 /* SwapItAppDelegate.m */,
 				3F58DEE81454AEE9006EC4F0 /* MainWindow.xib */,
 				3F58DEDD1454AEE8006EC4F0 /* Supporting Files */,
+				3F58DF091454AF08006EC4F0 /* SplashViewController.h */,
+				3F58DF0A1454AF08006EC4F0 /* SplashViewController.m */,
+				3F58DF0B1454AF08006EC4F0 /* SplashViewController.xib */,
+				3F58DF0E1454B132006EC4F0 /* MenuViewController.h */,
+				3F58DF0F1454B132006EC4F0 /* MenuViewController.m */,
+				3F58DF101454B133006EC4F0 /* MenuViewController.xib */,
+				3F58DF131454B6F1006EC4F0 /* SettingsViewController.h */,
+				3F58DF141454B6F1006EC4F0 /* SettingsViewController.m */,
+				3F58DF151454B6F1006EC4F0 /* SettingsViewController.xib */,
+				3F58DF181454C4B4006EC4F0 /* InstructionsViewController.h */,
+				3F58DF191454C4B4006EC4F0 /* InstructionsViewController.m */,
+				3F58DF1A1454C4B4006EC4F0 /* InstructionsViewController.xib */,
+				3F58DF1D1454C5C3006EC4F0 /* HighScoresViewController.h */,
+				3F58DF1E1454C5C3006EC4F0 /* HighScoresViewController.m */,
+				3F58DF1F1454C5C3006EC4F0 /* HighScoresViewController.xib */,
+				3F58DF221454C742006EC4F0 /* AboutViewController.h */,
+				3F58DF231454C743006EC4F0 /* AboutViewController.m */,
+				3F58DF241454C743006EC4F0 /* AboutViewController.xib */,
+				3F58DF271454C95F006EC4F0 /* NewGameController.h */,
+				3F58DF281454C95F006EC4F0 /* NewGameController.m */,
+				3F58DF291454C960006EC4F0 /* NewGameController.xib */,
+				3F58DF2C1454DDA5006EC4F0 /* GamePlayController.h */,
+				3F58DF2D1454DDA6006EC4F0 /* GamePlayController.m */,
+				3F58DF2E1454DDA7006EC4F0 /* GamePlayController.xib */,
+				3F58DF451454EE57006EC4F0 /* InGameView.h */,
+				3F58DF461454EE58006EC4F0 /* InGameView.m */,
 			);
 			path = SwapIt;
 			sourceTree = "<group>";
@@ -216,6 +288,15 @@
 			files = (
 				3F58DEE11454AEE9006EC4F0 /* InfoPlist.strings in Resources */,
 				3F58DEEA1454AEE9006EC4F0 /* MainWindow.xib in Resources */,
+				3F58DF0D1454AF08006EC4F0 /* SplashViewController.xib in Resources */,
+				3F58DF121454B133006EC4F0 /* MenuViewController.xib in Resources */,
+				3F58DF171454B6F2006EC4F0 /* SettingsViewController.xib in Resources */,
+				3F58DF1C1454C4B5006EC4F0 /* InstructionsViewController.xib in Resources */,
+				3F58DF211454C5C3006EC4F0 /* HighScoresViewController.xib in Resources */,
+				3F58DF261454C744006EC4F0 /* AboutViewController.xib in Resources */,
+				3F58DF2B1454C961006EC4F0 /* NewGameController.xib in Resources */,
+				3F58DF301454DDA7006EC4F0 /* GamePlayController.xib in Resources */,
+				3F58DF321454DE39006EC4F0 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +334,15 @@
 			files = (
 				3F58DEE41454AEE9006EC4F0 /* main.m in Sources */,
 				3F58DEE71454AEE9006EC4F0 /* SwapItAppDelegate.m in Sources */,
+				3F58DF0C1454AF08006EC4F0 /* SplashViewController.m in Sources */,
+				3F58DF111454B133006EC4F0 /* MenuViewController.m in Sources */,
+				3F58DF161454B6F2006EC4F0 /* SettingsViewController.m in Sources */,
+				3F58DF1B1454C4B5006EC4F0 /* InstructionsViewController.m in Sources */,
+				3F58DF201454C5C3006EC4F0 /* HighScoresViewController.m in Sources */,
+				3F58DF251454C744006EC4F0 /* AboutViewController.m in Sources */,
+				3F58DF2A1454C961006EC4F0 /* NewGameController.m in Sources */,
+				3F58DF2F1454DDA7006EC4F0 /* GamePlayController.m in Sources */,
+				3F58DF471454EE59006EC4F0 /* InGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

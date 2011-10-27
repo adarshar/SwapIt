@@ -7,6 +7,7 @@
 //
 
 #import "SwapItAppDelegate.h"
+#import "SplashViewController.h"
 
 @implementation SwapItAppDelegate
 
@@ -16,6 +17,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [application setStatusBarHidden:YES];
+    UINavigationController *navcon = [[UINavigationController alloc]init];
+    navcon.navigationBarHidden = YES;
+    SplashViewController *svc = [[SplashViewController alloc] init];
+	[navcon pushViewController:svc animated:NO];
+	[svc release];
+	[self.window addSubview:navcon.view];   
     [self.window makeKeyAndVisible];
     return YES;
 }
